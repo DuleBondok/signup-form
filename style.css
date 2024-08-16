@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+body
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.backPic
+{
+    height: 973px;
+    width: auto;
+
+}
+
+.povelja
+{
+    background-color: black;
+    width: 649px;
+    height: 120px;
+    position: absolute;
+    top: 200px;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.odinPic
+{
+    width: 80px;
+    height: auto;
+}
+
+.odinH
+{
+    color: white;
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90px;
+    font-style: italic;
+}
+
+.divDesno
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.upDiv
+{
+    background-color: rgb(241, 239, 239);
+    width: 1280px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+}
+
+.paragraph1, .paragraph2
+{
+    font-size: 25px;
+    font-weight: bold;
+    width: 900px;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.middleDiv
+{
+    height: 320px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding-top: 20px;
+    justify-content: space-around;
+    box-shadow: 5px 5px 5px rgb(51, 50, 50);
+    
+}
+
+.middleHed
+{
+    margin-left: 50px;
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.form1, .form2, .form3
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+
+}
+
+input
+{
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    font-size: 23px;
+}
+
+input:focus
+{
+    border: 1px solid blue;
+    box-shadow: 1px 1px 10px rgb(109, 107, 107);
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#password, #confPASS:invalid
+{
+    border: 1px solid red;
+}
+
+#btn1
+{
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 15px 32px;
+    font-weight: 600;
+    color: white;
+    background-color: #596D48;
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: 3px 3px 3px rgb(172, 169, 169);
+}
+
+.underBtn
+{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.downDiv
+{
+    background-color: rgb(241, 239, 239);
+    height: 307px;
+}
